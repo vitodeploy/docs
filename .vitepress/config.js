@@ -16,7 +16,7 @@ export default defineConfig({
         [
             'script',
             {},
-            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9N4ER7K7M6');",
+            "window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9N4ER7K7M6');",
         ],
     ],
     themeConfig: {
