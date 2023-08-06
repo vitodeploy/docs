@@ -58,7 +58,7 @@ export default defineConfig({
             },
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/vitodeploy' }
+            { icon: 'github', link: 'https://github.com/vitodeploy/vito' }
         ],
         footer: {
             message: 'Made with ❤️',
