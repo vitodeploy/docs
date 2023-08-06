@@ -5,6 +5,20 @@ export default defineConfig({
     base: '/',
     title: "VitoDeploy",
     description: "Documentation",
+    head: [
+        [
+            'script',
+            {
+                async: true,
+                src: 'https://www.googletagmanager.com/gtag/js?id=G-9N4ER7K7M6',
+            },
+        ],
+        [
+            'script',
+            {},
+            "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9N4ER7K7M6');",
+        ],
+    ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
