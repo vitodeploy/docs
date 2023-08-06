@@ -26,6 +26,12 @@ The installation will ask you for these inputs:
 
 This is the domain that Vito will be installed on and you can use it.
 
+If you've already set an E2E Certificate on your domain and you want to run it under `https` then you can run the following command to install:
+
+```sh
+wget https://raw.githubusercontent.com/vitodeploy/vito/main/install/install.sh && V_SSL=1 bash install.sh
+```
+
 ::: warning
 Before installation, Make sure that your Domain is pointing to the installation server's IP address.
 :::
