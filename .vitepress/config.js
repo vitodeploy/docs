@@ -24,6 +24,14 @@ export default defineConfig({
         nav: [
             { text: 'Home', link: '/' },
         ],
+        search: {
+            provider: 'algolia',
+            options: {
+                appId: 'OSJRVBTWTB',
+                apiKey: 'ed70c039271bac31d9f51d375c2e002e',
+                indexName: 'vitodeploy',
+            }
+        },
         sidebar: [
             {
                 text: 'Introduction',
