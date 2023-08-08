@@ -4,7 +4,8 @@ layout: home
 
 hero:
   name: "VitoDeploy"
-  tagline: The Ultimate server management tool
+  text: "Open-Source"
+  tagline: Free and Self-Hosted Server Management Tool
   actions:
     - theme: brand
       text: Documentation
