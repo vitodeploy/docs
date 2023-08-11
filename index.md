@@ -7,7 +7,7 @@ title: "Home"
 hero:
   name: "VitoDeploy"
   text: "Open-Source"
-  tagline: '<div style="display: flex; flex-direction: column; align-items:center; justify-content: center;"><p style="margin-bottom:20px; text-align:center;">Free and Self-Hosted Server Management Tool</p><a href="https://www.producthunt.com/posts/vitodeploy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-vitodeploy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=408773&theme=neutral" alt="VitoDeploy - Open&#0032;source&#0044;&#0032;free&#0032;and&#0032;self&#0045;hosted&#0032;server&#0032;management&#0032;tool | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a></div>'
+  tagline: Free and Self-Hosted Server Management Tool
   actions:
     - theme: brand
       text: Documentation
