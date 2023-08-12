@@ -136,3 +136,7 @@ img {
 .main .text {
     font-size: 36px;
 }
+
+.main .tagline {
+    text-align: center !important;
+}
