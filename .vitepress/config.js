@@ -17,10 +17,7 @@ export default defineConfig({
             'script',
             {},
             "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-9N4ER7K7M6');",
-        ],
-        ['link', { rel: 'icon', size: '16x16', href: '/favicon/favicon-16x16.png' }],
-        ['link', { rel: 'icon', size: '32x32', href: '/favicon/favicon-32x32.png' }],
-        ['link', { rel: 'icon', size: '96x96', href: '/favicon/favicon-96x96.png' }]
+        ]
     ],
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
