@@ -78,6 +78,7 @@ export default defineConfig({
                     { text: 'Server Providers', link: '/settings/server-providers' },
                     { text: 'Source Controls', link: '/settings/source-controls' },
                     { text: 'Notification Channels', link: '/settings/notification-channels' },
+                    { text: 'Storage Providers', link: '/settings/storage-providers' },
                 ]
             },
         ],
