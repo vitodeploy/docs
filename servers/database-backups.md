@@ -17,4 +17,6 @@ It will ask you to select the Database and the Storage that you already conencte
 
 ## Restore Backup
 
+![Restore Backup](/servers/backup-files.jpg)
+
 After creating a backup you can navigate to its Files and there you will be able to restore the backup files to the same or different databases.
