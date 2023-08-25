@@ -50,6 +50,7 @@ export default defineConfig({
                     { text: 'Server Providers', link: '/servers/server-providers' },
                     { text: 'Server Types', link: '/servers/server-types' },
                     { text: 'Database', link: '/servers/database' },
+                    { text: 'Database Backups', link: '/servers/database-backups' },
                     { text: 'PHP', link: '/servers/php' },
                     { text: 'Firewall', link: '/servers/firewall' },
                     { text: 'CronJobs', link: '/servers/cronjobs' },
