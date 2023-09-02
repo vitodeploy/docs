@@ -95,6 +95,20 @@ You might need to make the `sail` executable first
 chmod +x ./sail
 ```
 
+Login to the docker container and Run the migrations
+
+```sh
+php artisan migrate
+```
+
+Create a new user
+
+```sh
+php artisan user:create {name} {email} {password}
+```
+
+Open the the app on your local and use it.
+
 [Sail Documentation](https://laravel.com/docs/10.x/sail)
 
 ### Laravel Herd or Valet
@@ -107,7 +121,27 @@ And before that make sure that you have the Mysql up and running on your local
 cp .env.example .env
 ```
 
-Fill the `.env` and then use Valet or Herd to link the site and open it locally
+Fill the `.env`
+
+Run the migrations
+
+```sh
+php artisan migrate
+```
+
+Create a new user
+
+```sh
+php artisan user:create {name} {email} {password}
+```
+
+And then run the queues
+
+```sh
+php artisan queue:listen --timeout=600 --queue=default,ssh,ssh-long
+```
+
+and then use Valet or Herd to link the site and open it locally
 
 [Herd Documentation](https://herd.laravel.com/)
 
