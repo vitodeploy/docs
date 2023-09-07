@@ -68,6 +68,16 @@ To test VitoDeploy or to prevent spending more money on a Virtual Server you mig
 
 VitoDeploy is a Laravel project which means you can follow Laravel's documentation to see how you can run it locally but here we will recommend 2 ways of installing it locally.
 
+VitoDeploy uses OpenSSL keys to connect to your servers so you can manage them, Every Vito instance should have its own public and private key to do so. With the following command, you can generate a key pair.
+
+If you're using Mac or Linux, You can run it on your terminal. If you're using Windows with Sail, You can run it on the app container after bringing up the Sail.
+
+```sh
+openssl genpkey -algorithm RSA -out /PATH_TO_VITO/storage/ssh-private.pem
+chmod 600 /PATH_TO_VITO/storage/ssh-private.pem
+ssh-keygen -y -f /PATH_TO_VITO/storage/ssh-private.pem > /PATH_TO_VITO/storage/ssh-public.key
+```
+
 ### Laravel Sail
 
 To run the app locally via Laravel Sail clone the repository into your local machine and then run the following commands:
