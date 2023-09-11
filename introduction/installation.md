@@ -12,6 +12,10 @@
 Other Ubuntu versions might also work but we don't recommend them.
 :::
 
+::: warning
+You cannot use Vito to install applications into the same server as Vito. Otherwise, It might crash your Vito instance.
+:::
+
 ### Installation
 
 Vito can be installed with only one single command on your server:
