@@ -4,7 +4,9 @@
 
 ### Requirements
 
-To install Vito, You need a virtual server with `Ubuntu 22.04 LTS` installed.
+- Ubuntu 22.04 LTS
+- 1 GB Memory
+- 1 CPU
 
 ::: info
 Other Ubuntu versions might also work but we don't recommend them.
