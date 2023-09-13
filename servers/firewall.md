@@ -16,7 +16,7 @@ Specify the rule type which can be `Allow` or `Deny`
 
 **Protocol**
 
-Select the protocl you want to apply the rule to
+Select the protocol you want to apply the rule to
 
 **Port**
 

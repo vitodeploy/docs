@@ -10,7 +10,7 @@ To create a site you need to fill the mandatory fields.
 
 Vito is built to deploy PHP applications. Currently it supports any PHP applications.
 
-But it has a seperate site type for Laravel to support more features of it in the future.
+But it has a separate site type for Laravel to support more features of it in the future.
 
 Site Types are:
 

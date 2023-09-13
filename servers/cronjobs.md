@@ -6,4 +6,4 @@ You can create and delete CronJobs.
 
 ## How it works?
 
-Everytime you modify the CronJobs list (Create or Delete), Vito rewrites the `crontab` with the final existing CronJobs that you have in your dashboard.
+Every time you modify the CronJobs list (Create or Delete), Vito rewrites the `crontab` with the final existing CronJobs that you have in your dashboard.

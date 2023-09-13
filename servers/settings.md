@@ -19,5 +19,5 @@ You have the option of deleting a server.
 Deleting a server will erase it from your Vito Instance's database and if the server was created on a supported server providers (Not custom), It will try to delete the server on the provider via their APIs.
 
 ::: danger
-It is possible that Vito cannot reach to the Server Provider to delete the instance. If taht happens you will get an email (If you have configured the [Email](/introduction/configuration.md#email)) saying that Vito couldn't delete the server on the provider.
+It is possible that Vito cannot reach to the Server Provider to delete the instance. If that happens you will get an email (If you have configured the [Email](/introduction/configuration.md#email)) saying that Vito couldn't delete the server on the provider.
 :::

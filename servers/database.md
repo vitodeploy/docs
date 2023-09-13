@@ -1,6 +1,6 @@
 # Database
 
-You can create and mangae database and database users with Vito.
+You can create and manage database and database users with Vito.
 
 ![Databases](/servers/database.png)
 
@@ -22,7 +22,7 @@ After creating a user, You can link the user to any databases which you've alrea
 
 ## Password
 
-If you lost your Database User's passowrd, You can press the `View` button to see the password.
+If you lost your Database User's password, You can press the `View` button to see the password.
 
 ::: info
 Vito encrypts the password when saving them into the Vito Instance's database.
