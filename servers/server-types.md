@@ -6,7 +6,7 @@ Here are the list of provided server types:
 
 ## Regular (Application Server)
 
-Regular or Application Server is a type that offers you everything in the begining like Database and PHP however you can chose to not install them.
+Regular or Application Server is a type that offers you everything in the beginning like Database and PHP however you can chose to not install them.
 
 ## Database
 

@@ -1,6 +1,6 @@
 # Server Providers
 
-Vito supports the following server providers. This means that Vito has API integration with those cloud server providers which you can connect them to your Vito instance and then Vito will handle the server creatinos and etc.
+Vito supports the following server providers. This means that Vito has API integration with those cloud server providers which you can connect them to your Vito instance and then Vito will handle the server creations and etc.
 
 - AWS
 - Linode

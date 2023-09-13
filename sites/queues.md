@@ -15,7 +15,7 @@ You can create queues by entering the fields.
 For example, Consider a Laravel application the command might look like this:
 
 ```sh
-php /home/vito/YOUR-DIOMAIN/artisan queue:work --sleep=3
+php /home/vito/YOUR-DOMAIN/artisan queue:work --sleep=3
 ```
 
 You can also specify which user of the OS should run the queue.

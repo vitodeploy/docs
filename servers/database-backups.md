@@ -13,7 +13,7 @@ To create backups, You need to navigate to `Database` menu and create a new Back
 
 ![Create Backup](/servers/create-backup.png)
 
-It will ask you to select the Database and the Storage that you already conencted ([How](/settings/storage-providers)) and the Interval of the backups and how many backup files to keep when making a new backup.
+It will ask you to select the Database and the Storage that you already connected ([How](/settings/storage-providers)) and the Interval of the backups and how many backup files to keep when making a new backup.
 
 ## Restore Backup
 
