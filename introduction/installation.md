@@ -91,7 +91,7 @@ To run the app locally via Laravel Sail clone the repository into your local mac
 Set the envs
 
 ```sh
-cp .env.example .env
+cp .env.sail .env
 ```
 Fill the `.env` file and then
 
@@ -102,25 +102,25 @@ composer install
 And then boot up with Sail
 
 ```sh
-./sail up
+./vendor/bin/sail up -d
 ```
 
-You might need to make the `sail` executable first
+Generate App Key
 
 ```sh
-chmod +x ./sail
+./vendor/bin/sail artisan key:generate
 ```
 
-Login to the docker container and Run the migrations
+Run the migrations
 
 ```sh
-php artisan migrate
+./vendor/bin/sail artisan migrate
 ```
 
 Create a new user
 
 ```sh
-php artisan user:create {name} {email} {password}
+./vendor/bin/sail artisan user:create {name} {email} {password}
 ```
 
 Open the the app on your local and use it.
@@ -138,6 +138,12 @@ cp .env.example .env
 ```
 
 Fill the `.env`
+
+Generate App Key
+
+```sh
+php artisan key:generate
+```
 
 Run the migrations
 
