@@ -123,7 +123,7 @@ Create a new user
 ./vendor/bin/sail artisan user:create {name} {email} {password}
 ```
 
-Vito by default will run on http://localhost:2080. You can change the port on your `.env` file.
+Vito by default will run on localhost:2080. You can change the port on your `.env` file.
 
 [Sail Documentation](https://laravel.com/docs/10.x/sail)
 
