@@ -29,3 +29,19 @@ If you have a site running with the PHP that you want to uninstall, You need to 
 
 You can read more [here](/sites/settings#PHP)
 :::
+
+## Install PHP Extensions
+
+Vito supports some of the PHP extensions and enables you to install them.
+
+To install a new PHP extension you can go to the `PHP` page and for each PHP version you can click on the `Actions` dropdown and Install a new extension.
+
+Available extensions to install:
+
+- imagick
+- exif
+- gmagick
+- gmp
+- intl
+- sqlite3
+- opcache
