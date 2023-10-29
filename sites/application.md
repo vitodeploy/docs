@@ -26,4 +26,20 @@ Vito doesn't read the `.env` file in the beginning and you need to initiate the 
 
 ## Deploy
 
-This button appears when there is a deployment script! So you need to first write your deployment script and then this button will appear and you will be able to click on it an execute the deployment script on the server.
+This button appears when there is a deployment script! So you need to first write your deployment script and then this
+button will appear, and you will be able to click on it an execute the deployment script on the server.
+
+## Auto Deployment
+
+You can enable auto deployment for your application by setting up git hooks.
+
+Vito will handle the git hooks setup for you and you just need to click a button to enable it.
+
+::: warning
+You need to have a deployment script to enable auto deployment.
+:::
+
+::: warning
+Since source control providers need to send a request to your server, you need to have vito on a VPS. This feature
+cannot work when you use Vito locally.
+:::
