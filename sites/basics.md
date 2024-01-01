@@ -16,6 +16,7 @@ Site Types are:
 
 - PHP (Any other PHP applications)
 - Laravel
+- WordPress
 
 ## Domain
 
