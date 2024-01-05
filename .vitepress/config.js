@@ -75,6 +75,7 @@ export default defineConfig({
                 text: 'Settings',
                 items: [
                     { text: 'Profile', link: '/settings/profile' },
+                    { text: 'Projects', link: '/settings/projects' },
                     { text: 'Server Providers', link: '/settings/server-providers' },
                     { text: 'Source Controls', link: '/settings/source-controls' },
                     { text: 'Notification Channels', link: '/settings/notification-channels' },
