@@ -68,6 +68,61 @@ The installation can take several minutes and after it is done, It will print an
 ✅ URL: http://YOUR-DOMAIN
 ```
 
+
+## Install via Docker
+
+Vito provides a single docker image that you can install it easily!
+
+### Docker Command
+
+```sh
+docker run -v vito_db:/var/lib/mysql -v vito_app:/var/www/html \
+    -e MYSQL_ROOT_PASSWORD=your_db_pass  \
+    -e NAME=your_name \
+    -e EMAIL=your_email \
+    -e PASSWORD=your_password \
+    -p 80:80 vitodeploy/vito:latest
+```
+
+::: warning
+Make sure you modify the env variables when running the command.
+:::
+
+### Docker Compose
+
+```yaml
+version: '3'
+services:
+    vito:
+        image: vitodeploy/vito:latest
+        ports:
+            - '8000:80'
+        environment:
+            MYSQL_ROOT_PASSWORD: 'my_password'
+            NAME: 'vito'
+            EMAIL: 'vito@example.com'
+            PASSWORD: 'password'
+        volumes:
+            - 'vito-app:/var/www/html'
+            - 'vito-db:/var/lib/mysql'
+volumes:
+    vito-app:
+        driver: local
+    vito-db:
+        driver: local
+```
+
+### Environment Variables
+
+`MYSQL_ROOT_PASSWORD`: This will be the root password of the MySQL database.
+
+`NAME`: Your account's name
+
+`EMAIL`: Your account's email for login
+
+`PASSWORD`: Your account's password for login
+
+
 ## Install Locally
 
 To test VitoDeploy or to prevent spending more money on a Virtual Server you might want to install VitoDeploy locally and use it to manage your servers!
