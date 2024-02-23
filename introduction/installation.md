@@ -122,6 +122,13 @@ volumes:
 
 `PASSWORD`: Your account's password for login
 
+`APP_URL`: The URL of your Vito instance
+
+`ASSET_URL`: Same as the `APP_URL`
+
+::: warning
+If you want to use vito under HTTPS protocol then you will need to set `APP_URL` and `ASSET_URL` as well.
+:::
 
 ## Install Locally
 
