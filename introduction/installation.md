@@ -76,8 +76,10 @@ Vito provides a single docker image that you can install it easily!
 ### Docker Command
 
 ```sh
-docker run -v vito_db:/var/lib/mysql -v vito_app:/var/www/html \
-    -e MYSQL_ROOT_PASSWORD=your_db_pass  \
+docker run -v vito_db:/var/lib/mysql -v vito_storage:/var/www/html/storage \
+    -e APP_KEY=your_32_character_app_key  \
+    -e APP_URL=https://your-vito-url  \
+    -e DB_PASSWORD=your_db_pass  \
     -e NAME=your_name \
     -e EMAIL=your_email \
     -e PASSWORD=your_password \
@@ -98,15 +100,17 @@ services:
         ports:
             - '8000:80'
         environment:
-            MYSQL_ROOT_PASSWORD: 'my_password'
+            APP_KEY: 'your-32-character-app-key'
+            APP_URL: 'https://your-vito-url'
+            DB_PASSWORD: 'my_password'
             NAME: 'vito'
             EMAIL: 'vito@example.com'
             PASSWORD: 'password'
         volumes:
-            - 'vito-app:/var/www/html'
+            - 'vito-storage:/var/www/html/storage'
             - 'vito-db:/var/lib/mysql'
 volumes:
-    vito-app:
+    vito-storage:
         driver: local
     vito-db:
         driver: local
@@ -114,21 +118,17 @@ volumes:
 
 ### Environment Variables
 
-`MYSQL_ROOT_PASSWORD`: This will be the root password of the MySQL database.
+`APP_KEY`: A 32-character string app key used for encryption within the app.
+
+`APP_URL`: The URL of your Vito instance, by default is http://localhost
+
+`DB_PASSWORD`: This will be the root password of the MySQL database.
 
 `NAME`: Your account's name
 
 `EMAIL`: Your account's email for login
 
 `PASSWORD`: Your account's password for login
-
-`APP_URL`: The URL of your Vito instance
-
-`ASSET_URL`: Same as the `APP_URL`
-
-::: warning
-If you want to use vito under HTTPS protocol then you will need to set `APP_URL` and `ASSET_URL` as well.
-:::
 
 ## Install Locally
 
