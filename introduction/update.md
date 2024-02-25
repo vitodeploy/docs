@@ -10,6 +10,10 @@ bash ./update.sh
 
 **YOUR-DOMAIN** is the folder that the project has been installed.
 
+::: info
+If you are using the Docker version you will need to pull the latest image and recreate the container.
+:::
+
 ## What happens?
 
 Just like other git projects, It pulls the latest changes from the repo and runs a few Laravel scripts to update.
