@@ -2,8 +2,6 @@
 
 In the Application page you can manage your app and deployments.
 
-![Application](/sites/application.png)
-
 ## Branch
 
 You can change the branch of your cloned repository

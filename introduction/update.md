@@ -3,12 +3,10 @@
 To update Vito to its latest version you just need to run the `update.sh` file inside the root of the project.
 
 ```sh
-cd /home/vito/YOUR-DOMAIN
+cd /home/vito/vito
 
-bash ./update.sh
+bash scripts/update.sh
 ```
-
-**YOUR-DOMAIN** is the folder that the project has been installed.
 
 ::: info
 If you are using the Docker version you will need to pull the latest image and recreate the container.

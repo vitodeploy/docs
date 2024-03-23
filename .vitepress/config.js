@@ -40,13 +40,15 @@ export default defineConfig({
                     { text: 'What is Vito?', link: '/introduction/what-is-vito' },
                     { text: 'Installation', link: '/introduction/installation' },
                     { text: 'Configuration', link: '/introduction/configuration' },
-                    { text: 'Update', link: '/introduction/update' }
+                    { text: 'Update', link: '/introduction/update' },
+                    { text: 'Upgrade', link: '/introduction/upgrade' },
+                    { text: 'Contribution Guide', link: '/introduction/contribution-guide' }
                 ]
             },
             {
                 text: 'Servers',
                 items: [
-                    { text: 'Basics', link: '/servers/basics' },
+                    { text: 'Create Server', link: '/servers/create-server' },
                     { text: 'Server Providers', link: '/servers/server-providers' },
                     { text: 'Server Types', link: '/servers/server-types' },
                     { text: 'Database', link: '/servers/database' },
@@ -64,7 +66,7 @@ export default defineConfig({
             {
                 text: 'Sites',
                 items: [
-                    { text: 'Basics', link: '/sites/basics' },
+                    { text: 'Create Site', link: '/sites/create-site' },
                     { text: 'Application', link: '/sites/application' },
                     { text: 'SSL', link: '/sites/ssl' },
                     { text: 'Queues', link: '/sites/queues' },

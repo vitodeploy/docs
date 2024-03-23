@@ -10,8 +10,6 @@ Here you can create queues and manage them.
 
 You can create queues by entering the fields.
 
-![Queues](/sites/queues.png)
-
 For example, Consider a Laravel application the command might look like this:
 
 ```sh

@@ -2,12 +2,10 @@
 
 You can view and manage/create your storage providers' profiles here.
 
-![Storage Providers](/settings/storage-providers.png)
-
 Supported Drivers:
 
 - Dropbox
-- FTP(s)
+- FTP(s) (Beta)
 
 ## Connect to Dropbox
 

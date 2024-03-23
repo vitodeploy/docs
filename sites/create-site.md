@@ -1,8 +1,6 @@
-# Sites
+# Create Site
 
 Vito makes website deployments painless and easy.
-
-![Create Site](/sites/create-site.png)
 
 To create a site you need to fill the mandatory fields.
 
@@ -15,6 +13,7 @@ But it has a separate site type for Laravel to support more features of it in th
 Site Types are:
 
 - PHP (Any other PHP applications)
+- Blank PHP
 - Laravel
 - WordPress
 

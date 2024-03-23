@@ -1,16 +1,10 @@
 # Database
 
-You can create and manage database and database users with Vito.
-
-![Databases](/servers/database.png)
+You can create and manage databases and database users with Vito.
 
 ## Create Database
 
 To create a database you just need a name for your database. Also you have this option to create a user for the database at the same time.
-
-# Database Users
-
-Vito enables you to manage your database users.
 
 ## Create User
 

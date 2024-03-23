@@ -1,8 +1,8 @@
-# Servers
+# Create Server
+
+To create a new server just navigate to `/servers/create`. You can find the link in the left sidebar as well.   
 
 Creating servers requires some mandatory fields which you can know about them in this guide.
-
-![Create Server](/servers/create-server.png)
 
 ## Server Provider
 
@@ -48,11 +48,10 @@ Select the database which you want Vito to install.
 Vito supports the following databases:
 
 - Mysql 5.7
-- Mysql 8
-- MariaDB
+- Mysql 8.0
+- MariaDB 10
+- Postgresql 12 - 17
 
 ## PHP
 
 Select the PHP version that you want as primary version on your server.
-
-You can install PHP or other versions of it later as well.

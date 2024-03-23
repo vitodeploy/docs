@@ -2,8 +2,6 @@
 
 Vito enables you to manage your installed PHP versions and even switch between them.
 
-![PHP](/servers/php.png)
-
 ## Install new PHP
 
 You can install other PHP versions alongside your current PHP versions and you can have all of them in your server of course.
@@ -43,5 +41,4 @@ Available extensions to install:
 - gmagick
 - gmp
 - intl
-- sqlite3
 - opcache

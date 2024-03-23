@@ -2,13 +2,9 @@
 
 Vito installs [UFW](https://help.ubuntu.com/community/UFW) as a firewall service into your server.
 
-![Firewall](/servers/firewall.png)
-
 ## Create new Rule
 
 You can easily create firewall rules and deploy them to your server.
-
-![Create Firewall Rule](/servers/create-firewall-rule.png)
 
 **Rule Type**
 
