@@ -6,6 +6,8 @@ Before upgrade first make a backup of your database and storage folder.
 
 ## From 0.x to 1.x
 
+SSH to your Vito instance with user `vito` and continue the steps:
+
 ### PHP Upgrade
 
 Run the following command to install PHP `8.2` on your Vito instance:
@@ -61,6 +63,23 @@ Switch the database by running the following command:
 
 ```sh
 php /home/vito/YOUR-VITO-DOMAIN/artisan migrate-from-mysql-to-sqlite
+```
+
+### Cleanup the permissions
+
+If you haven't ran the commands via `vito` user then you need to cleanup the permissions:
+
+```sh
+sudo chown -R vito:vito /home/vito/YOUR-VITO-DOMAIN \
+    && chmod -R 755 /home/vito/YOUR-VITO-DOMAIN/storage /home/vito/YOUR-VITO-DOMAIN/bootstrap/cache
+```
+
+### Restart Worker
+
+And finally restart the worker.
+
+```sh
+sudo supervisorctl restart worker:*
 ```
 
 ### Stop Mysql
