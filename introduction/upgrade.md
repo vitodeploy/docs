@@ -1,5 +1,9 @@
 # Upgrade
 
+::: warning
+Before upgrade first make a backup of your database and storage folder.
+:::
+
 ## From 0.x to 1.x
 
 ### PHP Upgrade
