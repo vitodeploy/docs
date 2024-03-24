@@ -50,7 +50,7 @@ Vito supports the following databases:
 - Mysql 5.7
 - Mysql 8.0
 - MariaDB 10
-- Postgresql 12 - 17
+- Postgresql 12 - 16
 
 ## PHP
 
