@@ -22,6 +22,13 @@ And then
 sudo sed -i "s/php8.1/php8.2/g" /etc/nginx/sites-available/YOUR-DOMAIN
 ```
 
+And restart PHP and Nginx
+
+```sh
+sudo service nginx restart
+sudo service php8.2-fpm restart
+```
+
 **Replace YOUR-DOMAIN with your Vito's domain!**
 
 ### Switch to 1.x branch
