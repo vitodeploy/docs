@@ -87,7 +87,7 @@ export default defineConfig({
         ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/vitodeploy/vito' },
-            { icon: 'discord', link: 'https://discord.gg/dcUWA5DV' },
+            { icon: 'discord', link: 'https://discord.gg/uZeeHZZnm5' },
         ],
         footer: {
             message: 'Made with ❤️',
