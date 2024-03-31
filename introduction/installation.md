@@ -7,6 +7,7 @@
 - Ubuntu 22.04 LTS
 - 1 GB Memory
 - 1 CPU
+- 80 and 443 ports should be open
 
 ::: info
 Other Ubuntu versions might also work but we don't recommend them.
@@ -78,22 +79,22 @@ Make sure you modify the env variables when running the command.
 ### Docker Compose
 
 ```yaml
-version: '3'
+version: "3"
 services:
-    vito:
-        image: vitodeploy/vito:latest
-        ports:
-            - '8000:80'
-        environment:
-            APP_KEY: 'your-32-character-app-key'
-            NAME: 'vito'
-            EMAIL: 'vito@example.com'
-            PASSWORD: 'password'
-        volumes:
-            - 'vito-storage:/var/www/html/storage'
+  vito:
+    image: vitodeploy/vito:latest
+    ports:
+      - "8000:80"
+    environment:
+      APP_KEY: "your-32-character-app-key"
+      NAME: "vito"
+      EMAIL: "vito@example.com"
+      PASSWORD: "password"
+    volumes:
+      - "vito-storage:/var/www/html/storage"
 volumes:
-    vito-storage:
-        driver: local
+  vito-storage:
+    driver: local
 ```
 
 ### Environment Variables
@@ -133,6 +134,7 @@ Set the envs
 ```sh
 cp .env.sail .env
 ```
+
 Fill the `.env` file and then
 
 ```sh
