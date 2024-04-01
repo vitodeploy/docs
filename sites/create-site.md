@@ -16,6 +16,7 @@ Site Types are:
 - Blank PHP
 - Laravel
 - WordPress
+- PHPMyAdmin
 
 ## Domain
 
