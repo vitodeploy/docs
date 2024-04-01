@@ -20,9 +20,9 @@ features:
   - title: Server
     details: Provisions and Manages the server
   - title: Database
-    details: Easy database management, Supports Mysql and MariaDB
+    details: Easy database management, Supports Mysql and MariaDB and PostgreSQL
   - title: Website
-    details: Deploy your PHP applications such as Laravel
+    details: Deploy your PHP applications such as Laravel, Wordpress, PHPMyAdmin and more
   - title: Firewall
     details: Manage your server's firewall
   - title: SSL
@@ -35,5 +35,6 @@ features:
     details: Deploy your SSH Keys to the server
   - title: CronJobs
     details: Create and Manage cron jobs on the server
+  - title: Headless Console
+    details: Run ssh commands on your server and see the result right away
 ---
-
