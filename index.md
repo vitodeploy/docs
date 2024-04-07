@@ -14,7 +14,7 @@ hero:
       link: /introduction/what-is-vito
     - theme: alt
       text: Watch Demo
-      link: https://youtu.be/nIk5h8K0MBQ
+      link: https://youtu.be/AbmUOBDOc28
 
 features:
   - title: Server
