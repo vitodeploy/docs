@@ -40,6 +40,7 @@ export default defineConfig({
                     { text: 'What is Vito?', link: '/introduction/what-is-vito' },
                     { text: 'Installation', link: '/introduction/installation' },
                     { text: 'Configuration', link: '/introduction/configuration' },
+                    { text: 'Securing', link: '/introduction/securing' },
                     { text: 'Update', link: '/introduction/update' },
                     { text: 'Upgrade', link: '/introduction/upgrade' },
                     { text: 'Contribution Guide', link: '/introduction/contribution-guide' }
