@@ -58,6 +58,7 @@ export default defineConfig({
                     { text: 'CronJobs', link: '/servers/cronjobs' },
                     { text: 'SSH Keys', link: '/servers/ssh-keys' },
                     { text: 'Services', link: '/servers/services' },
+                    { text: 'Monitoring', link: '/servers/monitoring' },
                     { text: 'Console', link: '/servers/console' },
                     { text: 'Redis', link: '/servers/redis' },
                     { text: 'Settings', link: '/servers/settings' },
