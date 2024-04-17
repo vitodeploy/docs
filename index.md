@@ -37,4 +37,6 @@ features:
     details: Create and Manage cron jobs on the server
   - title: Headless Console
     details: Run ssh commands on your server and see the result right away
+  - title: Server Monitoring
+    details: Monitor your servers' resource usages like CPU Load, Memory and Disk
 ---
