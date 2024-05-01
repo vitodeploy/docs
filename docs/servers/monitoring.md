@@ -2,6 +2,23 @@
 
 VitoDeploy enables you to monitor your servers' resource usages like CPU Load, Memory, and Disk usage.
 
+We offer you 2 ways so you can monitor your servers.
+
+- Remote Monitor (No agent required)
+- Vito Agent (Via an agent installed on your server)
+
+## Remote Monitor
+
+If you chose to use the Remote Monitor, Vito will check your servers every minute to extract their resource usages.
+
+## Install Remote Monitor
+
+To install Remote Monitor you just need to go to the Services and hit the Install button on the Remote Monitor service under the Supported Services section.
+
+After the installation was successful, You can navigate to the Metrics page and view the statistics.
+
+Keep in mind that it will take a couple of minutes to collect enough data to visualize them.
+
 ## Vito Agent
 
 To enable Vito to monitor your servers you need to install the VitoAgent service first on your server.
