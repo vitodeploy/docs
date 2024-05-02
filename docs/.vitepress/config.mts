@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
+import fetch from "node-fetch";
 
 let version = '1.x';
 let changelog = '';
 await fetch('https://api.github.com/repos/vitodeploy/vito/releases/latest')
-  .then(response => response.json()).then(data => {
+  .then(response => response.json()).then((data: any) => {
     version = data.tag_name;
     changelog = data.html_url;
   });
