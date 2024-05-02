@@ -1,5 +1,13 @@
 import { defineConfig } from 'vitepress'
 
+let version = '1.x';
+let changelog = '';
+await fetch('https://api.github.com/repos/vitodeploy/vito/releases/latest')
+  .then(response => response.json()).then(data => {
+    version = data.tag_name;
+    changelog = data.html_url;
+  });
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/',
@@ -23,6 +31,14 @@ export default defineConfig({
 
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'What is Vito?', link: '/introduction/what-is-vito' },
+      { text: 'Get Started', link: '/introduction/installation' },
+      {
+        text: version, items: [
+          { text: 'Changelog', link: changelog },
+          { text: 'Contribute', link: '/introduction/contribution-guide' },
+        ]
+      }
     ],
 
     search: {
