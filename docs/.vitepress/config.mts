@@ -92,6 +92,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vitodeploy/vito' },
       { icon: 'discord', link: 'https://discord.gg/uZeeHZZnm5' },
+      { icon: 'twitter', link: 'https://twitter.com/saeed_vz' },
+      { icon: 'youtube', link: 'https://www.youtube.com/@saeedvaziry' },
     ],
     footer: {
       message: 'Made with ❤️',
