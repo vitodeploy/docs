@@ -57,6 +57,8 @@ The installation can take several minutes and after it is done, It will print an
 
 Now open your server's IP address and enjoy Vito!
 
+Now you can [attach a domain and secure it](/introduction/securing).
+
 ## Install via Docker
 
 Vito provides a single docker image that you can install it easily!
