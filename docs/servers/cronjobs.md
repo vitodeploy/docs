@@ -38,3 +38,13 @@ The cronjob command will be executed by this user
 ### Frequency
 
 This is the part you will provide the frequency and then VitoDeploy will attach it to the command when deploying the cronjob.
+
+## Delete Cronjob
+
+To delete a cronjob you can just hit the delete icon (trash) and confirm that you want to delete the cronjob.
+
+## Enable/Disable Cronjob
+
+VitoDeploy allows you to enable/disable a cronjob.
+
+A disabled cronjob will not execute on the given frequency.
