@@ -1,6 +1,58 @@
 # Installation
 
-## Install on VPS (Recommended)
+## Install via Docker
+
+Vito provides a single docker image that you can install it easily!
+
+### Docker Command
+
+```sh
+docker run -v vito_storage:/var/www/html/storage \
+    -e APP_KEY=your_32_character_app_key  \
+    -e NAME=your_name \
+    -e EMAIL=your_email \
+    -e PASSWORD=your_password \
+    -p 80:80 vitodeploy/vito:latest
+```
+
+::: warning
+Make sure you modify the env variables when running the command.
+:::
+
+### Docker Compose
+
+```yaml
+version: "3"
+services:
+  vito:
+    image: vitodeploy/vito:latest
+    ports:
+      - "8000:80"
+    environment:
+      APP_KEY: "your-32-character-app-key"
+      NAME: "vito"
+      EMAIL: "vito@example.com"
+      PASSWORD: "password"
+    volumes:
+      - "vito-storage:/var/www/html/storage"
+volumes:
+  vito-storage:
+    driver: local
+```
+
+### Environment Variables
+
+`APP_KEY`: A 32-character string app key used for encryption within the app.
+
+`APP_URL`: The URL of your Vito instance, by default is http://localhost
+
+`NAME`: Your account's name
+
+`EMAIL`: Your account's email for login
+
+`PASSWORD`: Your account's password for login (You can change it after login)
+
+## Install on VPS
 
 ### Requirements
 
@@ -58,58 +110,6 @@ The installation can take several minutes and after it is done, It will print an
 Now open your server's IP address and enjoy Vito!
 
 Now you can [attach a domain and secure it](/introduction/securing).
-
-## Install via Docker
-
-Vito provides a single docker image that you can install it easily!
-
-### Docker Command
-
-```sh
-docker run -v vito_storage:/var/www/html/storage \
-    -e APP_KEY=your_32_character_app_key  \
-    -e NAME=your_name \
-    -e EMAIL=your_email \
-    -e PASSWORD=your_password \
-    -p 80:80 vitodeploy/vito:latest
-```
-
-::: warning
-Make sure you modify the env variables when running the command.
-:::
-
-### Docker Compose
-
-```yaml
-version: "3"
-services:
-  vito:
-    image: vitodeploy/vito:latest
-    ports:
-      - "8000:80"
-    environment:
-      APP_KEY: "your-32-character-app-key"
-      NAME: "vito"
-      EMAIL: "vito@example.com"
-      PASSWORD: "password"
-    volumes:
-      - "vito-storage:/var/www/html/storage"
-volumes:
-  vito-storage:
-    driver: local
-```
-
-### Environment Variables
-
-`APP_KEY`: A 32-character string app key used for encryption within the app.
-
-`APP_URL`: The URL of your Vito instance, by default is http://localhost
-
-`NAME`: Your account's name
-
-`EMAIL`: Your account's email for login
-
-`PASSWORD`: Your account's password for login
 
 ## Install Locally
 
