@@ -1,6 +1,6 @@
-# What is Vito?
+# What is VitoDeploy?
 
-Vito is a self-hosted web application that helps you to manage your servers and deploy your PHP applications into production servers without a hassle.
+VitoDeploy or for short Vito is a self-hosted web application that helps you to manage your servers and deploy your PHP applications into production servers without a hassle.
 
 Vito can handle your PHP application deployments from server provision to automated deployments and backups and etc.
 
