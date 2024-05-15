@@ -4,6 +4,10 @@
 
 You can change the PHP version of each website in their Settings page.
 
+## Update Aliases
+
+You can add/remove site aliases. It will update the aliases on your site's nginx vhost configuration.
+
 ## Update VHost
 
 It is possible to customize the virtual host configuration of your webserver (Nginx).

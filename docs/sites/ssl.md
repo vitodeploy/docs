@@ -15,3 +15,7 @@ You can also install your own Certificate. Vito will ask for your Certificate an
 ::: info
 Vito encrypts the input and stores in your Vito Instance's database.
 :::
+
+## SSL for Subdomains/Aliases
+
+VitoDeploy optionally allows you to install SSLs for your subdomains and aliases. You can check this option when you're creating a new SSL.
