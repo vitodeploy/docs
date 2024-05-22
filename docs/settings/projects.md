@@ -2,7 +2,7 @@
 
 Vito enables you to handle your different projects.
 
-Every user in Vito can have multiple projects and the servers belong to projects. The relationship between servers and projects is on-to-many
+Every user in Vito can have multiple projects and the servers belong to projects. The relationship between servers and projects is one-to-many
 
 ## Creating a Project
 
