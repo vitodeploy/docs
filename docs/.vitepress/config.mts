@@ -105,6 +105,12 @@ export default defineConfig({
           { text: 'Storage Providers', link: '/settings/storage-providers' },
         ]
       },
+      {
+        text: 'Other Features',
+        items: [
+          { text: 'Scripts', link: '/other/scripts' },
+        ]
+      },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vitodeploy/vito' },
