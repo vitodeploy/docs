@@ -8,7 +8,7 @@ Setup your local environment by following the [installation documentation](/intr
 
 You may propose new features or improvements of existing behavior in the repository's [GitHub discussion board](https://github.com/vitodeploy/vito/discussions). If you propose a new feature, please be willing to implement at least some of the code that would be needed to complete the feature.
 
-Informal discussion regarding bugs, new features, and implementation of existing features takes place in the #general channel of our [Discord](https://discord.gg/dcUWA5DV) server.
+Informal discussion regarding bugs, new features, and implementation of existing features takes place in the #general channel of our [Discord](https://discord.gg/uZeeHZZnm5) server.
 
 ## Which Branch?
 
