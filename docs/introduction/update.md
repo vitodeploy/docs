@@ -11,7 +11,7 @@ Make sure you SSH to your Vito server via `vito` user. If you logged in via the 
 ```sh
 cd /home/vito/vito
 
-bash other/update.sh
+bash scripts/update.sh
 ```
 
 ## Update Docker
