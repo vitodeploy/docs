@@ -111,6 +111,10 @@ Now open your server's IP address and enjoy Vito!
 
 Now you can [attach a domain and secure it](/introduction/securing).
 
+## Migrating 
+
+To migrate from a previous installation and import an existing VitoDeploy configuration you can simply overwrite the `storage` folder with the contents of the old one. For this to work you will also need to use the same Laravel `APP_KEY` in your .env file. You can subsequently generate a new one using `php artisan key:generate`.
+
 ## Install Locally
 
 To contribute to VitoDeploy and run it locally we have Laravel Sail ready!
