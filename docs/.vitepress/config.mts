@@ -103,6 +103,7 @@ export default defineConfig({
           { text: 'Source Controls', link: '/settings/source-controls' },
           { text: 'Notification Channels', link: '/settings/notification-channels' },
           { text: 'Storage Providers', link: '/settings/storage-providers' },
+          { text: 'Tags', link: '/settings/tags' },
         ]
       },
       {

@@ -42,4 +42,4 @@ To add more drivers, Please follow [Laravel's Official Documentation](https://la
 
 ## Telegram
 
-To add a Telegram channel you will first need to create a but with `@BotFather` and then start the bot or add it to a channel and then get the `chat_id` of that chat/channel and enter the `bot_token` and the `chat_id` to add it to your Vito instance.
+To add a Telegram channel you will first need to create a bot with `@BotFather` and then start the bot or add it to a channel and then get the `chat_id` of that chat/channel and enter the `bot_token` and the `chat_id` to add it to your Vito instance.
