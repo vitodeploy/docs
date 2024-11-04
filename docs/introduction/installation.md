@@ -56,7 +56,7 @@ volumes:
 
 ### Requirements
 
-- Ubuntu 22.04 LTS
+- Ubuntu 22.04 LTS or Higher
 - 1 GB Memory
 - 1 CPU
 - 80 and 443 ports should be open
