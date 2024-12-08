@@ -42,6 +42,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          includeCurrentVersion: false,
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -104,10 +105,14 @@ const config = {
           {
             title: 'Docs',
             items: [
-              // {
-              //   label: 'Tutorial',
-              //   to: '/docs/intro',
-              // },
+              {
+                label: 'Introduction',
+                to: '/docs/intro',
+              },
+              {
+                label: 'Installation',
+                to: '/docs/getting-started/installation',
+              },
             ],
           },
           {

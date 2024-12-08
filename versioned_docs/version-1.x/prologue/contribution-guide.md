@@ -2,7 +2,7 @@
 
 ## Environment Setup
 
-Setup your local environment by following the [installation documentation](./installation.md#install-locally)
+Setup your local environment by following the [installation documentation](../getting-started/installation.md#install-locally)
 
 ## Development Discussion
 

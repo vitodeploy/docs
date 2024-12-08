@@ -6,9 +6,25 @@
       "id": "intro"
     },
     {
-      "type": "doc",
-      "label": "Release Notes",
-      "id": "release-notes"
+      "type": "category",
+      "label": "Prologue",
+      "items": [
+        {
+          "type": "doc",
+          "label": "Release Notes",
+          "id": "prologue/release-notes"
+        },
+        {
+          "type": "doc",
+          "label": "Upgrade Guide",
+          "id": "prologue/upgrade"
+        },
+        {
+          "type": "doc",
+          "label": "Contribution Guide",
+          "id": "prologue/contribution-guide"
+        }
+      ]
     },
     {
       "type": "category",
@@ -33,16 +49,6 @@
           "type": "doc",
           "label": "Update",
           "id": "getting-started/update"
-        },
-        {
-          "type": "doc",
-          "label": "Upgrade Guide",
-          "id": "getting-started/upgrade"
-        },
-        {
-          "type": "doc",
-          "label": "Contribution Guide",
-          "id": "getting-started/contribution-guide"
         }
       ]
     },
