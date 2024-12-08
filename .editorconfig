@@ -1,0 +1,4 @@
+root = true
+
+[*.{js,ts,mts}]
+indent_size = 2

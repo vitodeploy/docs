@@ -1,38 +1,61 @@
 # PHP
 
-Vito enables you to manage your installed PHP versions and even switch between them.
+- [Introduction](#introduction)
+- [Supported PHP Versions](#supported-php-versions)
+- [Default PHP Cli](#default-php-cli)
+- [Edit php.ini](#edit-phpini)
+- [Restart](#restart)
+- [Install and Uninstall](#install-and-uninstall)
+- [Install PHP Extensions](#install-php-extensions)
 
-## Install new PHP
+## Introduction
 
-You can install other PHP versions alongside your current PHP versions and you can have all of them in your server of course.
+Vito supports multiple PHP versions, and you can install and uninstall them during the server creation or after the
+server creation in the `PHP` menu in the server page or in the [Services](./services) page.
+
+## Supported PHP Versions
+
+- PHP 7.0
+- PHP 7.1
+- PHP 7.2
+- PHP 7.3
+- PHP 7.4
+- PHP 8.0
+- PHP 8.1
+- PHP 8.2
+- PHP 8.3
+- PHP 8.4 (Coming Soon)
 
 ## Default PHP Cli
 
-Although you can have only one default PHP Cli which can be called by `php` command on the server. Here you can switch the default cli version.
+Although you can have only one default PHP Cli which can be called by `php` command on the server, But you can switch
+the default cli version in the `PHP` page.
 
 ## Edit php.ini
 
-Under the `Actions` dropdown of each PHP version you can Edit it's `php.ini`. This will fetch the ini file from the server and enables you to modify and after you are done with it, It will upload the new `php.ini` into the server and restarts the `php-fpm`.
+Vito enables you to edit the `php.ini` file of each PHP version. You can edit both the `php.ini` file of the CLI and the
+FPM.
 
 ## Restart
 
-You have this option always to restart each PHP FPM service in the PHP page or in the [Services](/servers/services) page.
+You have this option always to restart each PHP FPM service in the PHP page or in the `PHP` menu
+or [Services](./services) page.
 
-## Uninstall
+## Install and Uninstall
 
-Vito gives you this option of uninstalling a specific PHP version.
+Vito gives you the option to easily install and uninstall different PHP versions.
 
-::: danger
-If you have a site running with the PHP that you want to uninstall, You need to first change the PHP version of the website first.
-
-You can read more [here](/sites/settings#PHP)
+:::warning
+You cannot uninstall a PHP version if you have a site running with that PHP version. You need to
+first [change](../sites/settings#change-php-version) the PHP version of the website first.
 :::
 
 ## Install PHP Extensions
 
 Vito supports some of the PHP extensions and enables you to install them.
 
-To install a new PHP extension you can go to the `PHP` page and for each PHP version you can click on the `Actions` dropdown and Install a new extension.
+To install a new PHP extension you can go to the `PHP` page and for each PHP version you can click on the `Actions`
+dropdown and Install a new extension.
 
 Available extensions to install:
 

@@ -1,12 +1,16 @@
 # Queues
 
+- [Introduction](#introduction)
+- [Create Queues](#create-queues)
+- [Stop, Start and Restart](#stop-start-and-restart)
+
+## Introduction
+
 Vito installs [Supervisor](http://supervisord.org/) on your server and uses it to provide you Queue functionality.
 
-Modern applications like Laravel use queues for long running jobs.
+Modern applications like Laravel use queues for long-running jobs.
 
-Here you can create queues and manage them.
-
-## Create
+## Create Queues
 
 You can create queues by entering the fields.
 

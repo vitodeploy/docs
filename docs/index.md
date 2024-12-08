@@ -9,13 +9,13 @@ hero:
   text: "Open-Source"
   tagline: Free and Self-Hosted <br>Server Management Tool
   image:
-    light: /services.png
+    light: /services-light.png
     dark: /services-dark.png
     alt: VitoDeploy
   actions:
     - theme: brand
-      text: Documentation
-      link: /introduction/what-is-vito
+      text: Get Started
+      link: /getting-started/introduction
     - theme: alt
       text: Watch Demo
       link: https://youtu.be/AbmUOBDOc28

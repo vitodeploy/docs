@@ -1,15 +1,24 @@
 # SSH Keys
 
-In order to enable you to deploy other SSH Keys to the server so you can login to the server via SSH with that SSH Keys, Vito has the option of deploying keys to the server.
+- [Introduction](#introduction)
+- [Personal SSH Keys](#personal-ssh-keys)
+- [Server SSH Keys](#server-ssh-keys)
+- [SSH to Server](#ssh-to-server)
 
-You can deploy keys directly from the existing ones in your account or you can create a new one and deploy it to the server.
+## Introduction
 
-## Login to the servers using your SSH keys
+Vito manages SSH Keys in Profile and Server level. Every user can have multiple SSH Keys attached to their account and
+can deploy them to the servers. Also, users can deploy a new SSH Key to the server directly.
 
-To login to the server, you should use the "_**vito**_" username.
+## Personal SSH Keys
 
-Here is an example on how to add your public key to the authorized keys file on your PC.
-```
-cat ~/.ssh/id_rsa.pub | ssh your-server-domain 'cat >> .ssh/authorized_keys'
-ssh vito@your-server-domain
-```
+You can manage your SSH Keys in the `SSH Keys` section in the `Settings` menu.
+
+## Server SSH Keys
+
+You can manage the SSH Keys of the servers in the `SSH Keys` section in the `Servers` menu.
+
+## SSH to Server
+
+All SSH keys deployed to the server are added to the `vito` user on your server. So after deploying an SSH Key, You can
+log in via `vito` user.
