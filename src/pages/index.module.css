@@ -1,23 +1,26 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+.header {
+    background-color: #252526;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg fill-opacity='0.14'%3E%3Crect fill='%23252526' width='11' height='11'/%3E%3Crect fill='%23252526' x='10' width='11' height='11'/%3E%3Crect fill='%23242427' y='10' width='11' height='11'/%3E%3Crect fill='%23242427' x='20' width='11' height='11'/%3E%3Crect fill='%23242427' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%23232328' y='20' width='11' height='11'/%3E%3Crect fill='%23232328' x='30' width='11' height='11'/%3E%3Crect fill='%23232328' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23222228' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23222229' y='30' width='11' height='11'/%3E%3Crect fill='%23222229' x='40' width='11' height='11'/%3E%3Crect fill='%23212129' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%2321212a' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%2321212a' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%2320202a' y='40' width='11' height='11'/%3E%3Crect fill='%2320202b' x='50' width='11' height='11'/%3E%3Crect fill='%2320202b' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23201f2b' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%231f1f2b' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%231f1f2c' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%231f1e2c' y='50' width='11' height='11'/%3E%3Crect fill='%231e1e2c' x='60' width='11' height='11'/%3E%3Crect fill='%231e1e2c' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%231e1d2d' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%231d1d2d' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%231d1d2d' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%231d1c2e' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%231c1c2e' x='70' width='11' height='11'/%3E%3Crect fill='%231c1c2e' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%231c1b2e' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%231b1b2f' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%231b1b2f' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%231b1a2f' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%231a1a2f' x='80' width='11' height='11'/%3E%3Crect fill='%231a1a30' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%231a1930' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23191930' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23191830' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23191831' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23181831' x='90' width='11' height='11'/%3E%3Crect fill='%23181731' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23181731' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23171731' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23171632' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23171632' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23171632' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23161532' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23161533' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23161433' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23151433' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23151433' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23151333' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23141334' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23141334' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23141234' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23131234' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23131134' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23131135' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23121035' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23121035' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px 0;
+}
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 4rem 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+    .heroBanner {
+        padding: 2rem;
+    }
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
