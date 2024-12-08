@@ -9,7 +9,7 @@
 
 ## Environment Setup
 
-Set up your local environment by following the [installation documentation](./installation#install-locally)
+Set up your local environment by following the [installation documentation](../getting-started/installation#install-locally)
 
 ## Development Discussion
 
