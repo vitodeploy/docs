@@ -1,12 +1,18 @@
 # CronJobs
 
+- [Introduction](#introduction)
+- [Create a new Cronjob](#create-a-new-cronjob)
+  - [Command](#command)
+  - [User](#user)
+  - [Frequency](#frequency)
+- [Delete Cronjob](#delete-cronjob)
+- [Enable/Disable Cronjob](#enabledisable-cronjob)
+
+## Introduction
+
 Vito makes managing CronJobs painless! It interacts directly with your server's `crontab` and deploys your CronJobs there.
 
-You can create and delete CronJobs.
-
-## How it works?
-
-Every time you modify the CronJobs list (Create or Delete), Vito rewrites the `crontab` with the final existing CronJobs that you have in your dashboard.
+You can Create, Delete, Enable and Disable CronJobs.
 
 ## Create a new Cronjob
 
@@ -18,7 +24,7 @@ This is the command that will be executed on each cron execution. Depending on t
 
 If the user is `vito` then the command will be executed on `/home/vito`. We recommend to use the absolute path for your commands in the cronjobs.
 
-::: info
+:::info
 For example, To run Laravel's scheduler you can use the following command:
 
 ```
@@ -27,8 +33,8 @@ php /home/vito/your-domain/artisan schedule:run >> /dev/null 2>&1
 
 :::
 
-::: warning
-Do not add `* * * * *` to the command because VitoDeploy will add it.
+:::warning
+Do not add any frequency (`* * * * *`) to the command because VitoDeploy will add it when deploying the cronjob.
 :::
 
 ### User

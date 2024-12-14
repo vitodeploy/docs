@@ -1,5 +1,14 @@
 # Application
 
+- [Introduction](#introduction)
+- [Branch](#branch)
+- [Deployment Script](#deployment-script)
+- [.env](#env)
+- [Deploy](#deploy)
+- [Auto Deployment](#auto-deployment)
+
+## Introduction
+
 In the Application page you can manage your app and deployments.
 
 ## Branch
@@ -10,7 +19,7 @@ You can change the branch of your cloned repository
 
 This is a script which will be executed on your application server each time you press the `Deploy` button.
 
-::: info
+:::info
 Your website's path is `/home/vito/YOUR-DOMAIN`
 :::
 
@@ -40,7 +49,7 @@ echo "Deploying $DOMAIN to $SITE_PATH"
 
 This is the `.env` file of your PHP app (In this case Laravel) which you've installed on your server.
 
-::: warning
+:::warning
 Vito doesn't read the `.env` file in the beginning and you need to initiate the file from this page.
 :::
 
@@ -55,11 +64,12 @@ You can enable auto deployment for your application by setting up git hooks.
 
 Vito will handle the git hooks setup for you and you just need to click a button to enable it.
 
-::: warning
+:::warning
 You need to have a deployment script to enable auto deployment.
 :::
 
-::: warning
-Since source control providers need to send a request to your server, you need to have vito on a VPS. This feature
+:::warning
+Since source control providers need to send a request to your server, you need to have vito accessible in the Internet.
+This feature
 cannot work when you use Vito locally.
 :::

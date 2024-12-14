@@ -1,6 +1,9 @@
 # Configuration
 
-After installation, You will see a `.env` file in the root of the project. It is a normal Laravel env file which you can modify some of them.
+VitoDeploy uses environment variables to configure the app.
+
+If you've installed VitoDeploy on a VPS, You should see a `.env` file in the root of the project (
+`/home/vito/vito/.env`). It is a normal Laravel env file which you can modify some of them.
 
 If you are using the Docker version, you need to update the environment variables of your container.
 
@@ -27,6 +30,6 @@ sudo supervisorctl restart worker:*
 
 For docker version you will need to restart the restart/re-create the container.
 
-::: warning
+:::warning
 Currently Vito supports only SMTP as the mail driver
 :::

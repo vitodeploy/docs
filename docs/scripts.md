@@ -1,14 +1,15 @@
 # Scripts
 
+- [Introduction](#introduction)
+- [Variables](#variables)
+- [Execute Script](#execute-script)
+- [Script Logs](#script-logs)
+
+## Introduction
+
 Scripts allows you to create bash scripts and execute them on your servers any time you want.
 
-## Create Script
-
-Navigate to `/scripts` via the sidebar navigation and there you can create a new script.
-
-To create a script you need to name it and provide the content in bash script format.
-
-### Define Variables
+## Variables
 
 VitoDeploy allows you to define variables in your script.
 
@@ -22,12 +23,11 @@ echo "Hello ${NAME}"
 
 ## Execute Script
 
-To execute a script, Go to the scripts list and hit the `⚡` icon and select the target server that you want to execute
-the script on it.
+Vito enables you to execute the scripts on every server you want.
 
-You can also select the system user that you want to execute the script with.
+While executing, You can select the system user that you want to execute the script with.
 
-::: warning
+:::warning
 Be careful when executing scripts with root user, as it can cause damage to your server.
 :::
 
