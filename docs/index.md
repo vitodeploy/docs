@@ -17,8 +17,8 @@ hero:
       text: Get Started
       link: /getting-started/introduction
     - theme: alt
-      text: Watch Demo
-      link: https://youtu.be/AbmUOBDOc28
+      text: Demo Website
+      link: https://demo.vitodeploy.com
       
 features:
   - title: Server

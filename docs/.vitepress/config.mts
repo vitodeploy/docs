@@ -45,6 +45,10 @@ export default defineConfig({
           {text: 'Changelog', link: changelog},
           {text: 'Contribute', link: '/getting-started/contribution-guide'},
         ]
+      },
+      {
+        text: 'Demo',
+        link: 'https://demo.vitodeploy.com'
       }
     ],
 
