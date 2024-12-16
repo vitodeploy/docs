@@ -43,7 +43,7 @@ export default defineConfig({
         text: version,
         items: [
           {text: 'Changelog', link: changelog},
-          {text: 'Contribute', link: '/getting-started/contribution-guide'},
+          {text: 'Contribute', link: '/prologue/contribution-guide'},
         ]
       },
       {
