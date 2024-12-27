@@ -57,7 +57,7 @@ The coding style is already hardcoded in configurations inside the project.
 
 For PHP codes you may run `./vendor/bin/pint` to fix your coding styles.
 
-And for the frontend codes you may run `npm run lint:fix` to fix your frontend coding styles.
+And for the frontend codes and bash scripts you may run `npm run lint:fix` to fix your frontend coding styles.
 
 These two commands should be run before opening a PR, Otherwise the checks on your PR will fail.
 
