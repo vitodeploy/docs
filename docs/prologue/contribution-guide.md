@@ -1,6 +1,7 @@
 # Contribution Guide
 
 - [Environment Setup](#environment-setup)
+- [Where to start?](#where-to-start)
 - [Development Discussion](#development-discussion)
 - [Which Branch?](#which-branch)
 - [Security Vulnerabilities](#security-vulnerabilities)
