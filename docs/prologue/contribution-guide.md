@@ -20,7 +20,7 @@ You can find them [here](https://github.com/orgs/vitodeploy/projects/5/views/9)
 They're sorted by priority. So feel free to pick an unassigned one. Drop a comment so we can assign it to you.
 
 :::warning
-If you want to work on something which is not listed in the `ToDo` issues. Please read the below sectino!
+If you want to work on something which is not listed in the `ToDo` issues. Please read the below section!
 :::
 
 ## Development Discussion
