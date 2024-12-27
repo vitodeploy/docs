@@ -11,6 +11,18 @@
 
 Set up your local environment by following the [installation documentation](../getting-started/installation#install-locally)
 
+## Where to start?
+
+If you want to start right away, we recommend you to start from the open issues in the `Todo` state.
+
+You can find them [here](https://github.com/orgs/vitodeploy/projects/5/views/9)
+
+They're sorted by priority. So feel free to pick an unassigned one. Drop a comment so we can assign it to you.
+
+:::warning
+If you want to work something which is not listed in the `ToDo` issues. Please read the below sectino!
+:::
+
 ## Development Discussion
 
 You may propose new features or improvements of existing behavior in the
