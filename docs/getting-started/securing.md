@@ -80,3 +80,12 @@ YOUR_EMAIL: Your email address to be provided to letsencrypt
 :::info
 If you are using Cloudflare, Now you can enable the cloud proxy if you want. Keep in mind that you might need to enable Full SSL encryption option on Cloudflare
 :::
+
+### Update environment variables
+
+Now you need add/update the following variables in the `.env` file if you are using VPS installation or docker's environment variables if you are using docker:
+
+```sh
+APP_URL=https://YOUR_DOMAIN
+ASSET_URL=https://YOUR_DOMAIN
+```

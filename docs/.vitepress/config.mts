@@ -104,6 +104,7 @@ export default defineConfig({
           {text: 'SSL', link: '/sites/ssl'},
           {text: 'Queues', link: '/sites/queues'},
           {text: 'Settings', link: '/sites/settings'},
+          {text: 'Isolation', link: '/sites/isolation'},
         ]
       },
       {text: 'Scripts', link: '/scripts'},
