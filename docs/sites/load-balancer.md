@@ -31,7 +31,7 @@ For Vito, a load balancer is a site type because it's a virtual host in the webs
 
 To create a load balancer, follow these steps:
 
-1. Go to the [Sites](../sites) on your server.
+1. Go to the Sites on your server.
 2. Click on the `Create a Site` button.
 3. Select `Load Balancer` from the site types.
 4. Fill in the required fields.
