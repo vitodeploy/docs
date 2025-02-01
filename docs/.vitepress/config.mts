@@ -105,6 +105,7 @@ export default defineConfig({
           {text: 'Queues', link: '/sites/queues'},
           {text: 'Settings', link: '/sites/settings'},
           {text: 'Isolation', link: '/sites/isolation'},
+          {text: 'Load Balancer', link: '/sites/load-balancer'},
         ]
       },
       {text: 'Scripts', link: '/scripts'},

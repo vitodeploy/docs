@@ -6,7 +6,7 @@ user for that website. This way, you can isolate your websites from each other.
 
 ## How to use
 
-When you create a new site, you will see a new field called `Username`. You can specify a username (unique) for your
+When you create a new site, you will see a new field called `User`. You can specify a username (unique) for your
 website. If you don't specify a system user, it will create the website in the main ssh user of your server which is
 `vito` user.
 
