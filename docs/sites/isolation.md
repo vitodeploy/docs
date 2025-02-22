@@ -1,3 +1,7 @@
+::: warning
+Site isolation is still in beta.
+:::
+
 # Site Isolation
 
 Site Isolation is a feature that allows you to create isolated websites. This means, everytime you create a website, you
