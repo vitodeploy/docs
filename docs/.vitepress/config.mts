@@ -94,6 +94,7 @@ export default defineConfig({
           {text: 'Redis', link: '/servers/redis'},
           {text: 'Settings', link: '/servers/settings'},
           {text: 'Logs', link: '/servers/logs'},
+          {text: 'File Manager', link: '/servers/file-manager'},
         ]
       },
       {
